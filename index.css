@@ -41,3 +41,7 @@ img {
 p {
   padding: 1% 15% 3% 15%;
 }
+
+a {
+  color: var(--main-color);
+}
