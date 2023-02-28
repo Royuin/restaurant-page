@@ -37,3 +37,7 @@ img {
   place-items: center;
   text-align: center;
 }
+
+p {
+  padding: 1% 10% 3% 10%;
+}
