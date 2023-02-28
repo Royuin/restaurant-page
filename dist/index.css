@@ -1,5 +1,6 @@
 :root {
   --off-white: #ccc;
+  --main-color: #ff6b63;
 }
 
 * {
@@ -12,6 +13,7 @@
 body {
   background-color: #222;
   color: var(--off-white);
+  line-height: 1.5;
 }
 
 .quote {
@@ -28,4 +30,10 @@ body {
 img {
   width: 100vw;
   height: 35em;
+}
+
+#content {
+  display: grid;
+  place-items: center;
+  text-align: center;
 }
