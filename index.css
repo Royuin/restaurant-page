@@ -1,3 +1,7 @@
+:root {
+  --off-white: #ccc;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +11,7 @@
 
 body {
   background-color: #222;
+  color: var(--off-white);
 }
 
 .quote {
@@ -17,7 +22,7 @@ body {
   font-size: 2em;
   background-color: rgba(5, 5, 5, 0.75);
   padding: 10px 20px;
-  color: #ccc;
+  color: var(--off-white);
 }
 
 img {
