@@ -10,10 +10,16 @@
   font-family: inherit;
 }
 
+@font-face {
+  font-family: 'main font';
+  src: url(/src/fonts/Labrada-VariableFont_wght.ttf);
+}
+
 body {
   background-color: #222;
   color: var(--off-white);
   line-height: 1.5;
+  font-family: 'main font', sans-serif;
 }
 
 .quote {
