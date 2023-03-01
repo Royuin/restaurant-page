@@ -34,12 +34,12 @@ header {
 
 .quote {
   position: absolute;
-  left: 35%;
-  right: 35%;
-  top: 250px;
+  left: 30%;
+  right: 30%;
+  top: 225px;
   font-size: 2em;
   background-color: rgba(5, 5, 5, 0.75);
-  padding: 10px 20px;
+  padding: 10px 0 10px 0;
   color: var(--off-white);
 }
 
