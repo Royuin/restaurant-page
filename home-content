@@ -1,13 +1,15 @@
 <header>
-  <h1>Roku Sunset</h1>
-  <button>Home</button>
-  <button>Menu</button>
-  <button>Contact</button>
+  <nav>
+    <h1>Roku Sunset</h1>
+    <button>Home</button>
+    <button>Menu</button>
+    <button>Contact</button>
+  </nav>
+  <p class="quote">
+    “Only the pure in heart can make a good soup.” <br> -Ludwig van Beethoven
+  </p>
+  <img src="/src/imgs/ramen-shop.jpg" alt="">
 </header>
-<p class="quote">
-  “Only the pure in heart can make a good soup.” <br> -Ludwig van Beethoven
-</p>
-<img src="/src/imgs/ramen-shop.jpg" alt="">
 
 <p>Broth made from scratch with homemade noodles we serve the best ramen you haven't had yet. With only one location
   you can be sure we put it all we got into each and every bowl of ramen you eat.
