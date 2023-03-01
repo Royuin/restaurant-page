@@ -22,11 +22,21 @@ body {
   font-family: 'main font', sans-serif;
 }
 
+header {
+  top: 0;
+  position: absolute;
+  font-size: 2em;
+  background-color: rgba(5, 5, 5, 0.75);
+  padding: 10px 20px;
+  color: var(--main-color);
+  width: 100%;
+}
+
 .quote {
   position: absolute;
   left: 35%;
   right: 35%;
-  top: 65px;
+  top: 250px;
   font-size: 2em;
   background-color: rgba(5, 5, 5, 0.75);
   padding: 10px 20px;
