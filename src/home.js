@@ -33,3 +33,15 @@ export function makeHeader() {
   headerImg.src = '/src/imgs/ramen-shop.jpg';
   header.appendChild(headerImg);
 }
+
+export function createHomeInfo() {
+  const aboutP1 = document.createElement('p');
+  aboutP1.textContent = `Broth made from scratch with homemade noodles we serve the best ramen you haven't had yet. With only one location
+you can be sure we put it all we got into each and every bowl of ramen you eat.`;
+  content.appendChild(aboutP1);
+
+  const aboutP2 = document.createElement('p');
+  aboutP2.textContent =
+    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque quas autem sapiente ullam explicabo delectus totam culpa deserunt saepe laudantium facere eum quis, unde molestiae est magni at ut quo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dicta tenetur recusandae suscipit quibusdam provident dolorem officiis dolores? Similique quibusdam tenetur, minus sed dignissimos aliquid! Illum eaque quam veniam excepturi.';
+  content.appendChild(aboutP2);
+}
