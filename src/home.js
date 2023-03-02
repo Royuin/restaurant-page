@@ -25,8 +25,8 @@ export function makeHeader() {
 
   const quoteP = document.createElement('p');
   quoteP.classList = 'quote';
-  quoteP.textContent =
-    'Only the pure in heart can make a good soup.” <br> -Ludwig Van Beethoven';
+  quoteP.textContent = '"Only the pure in heart can make a good soup." \n';
+  quoteP.textContent += '-Ludwig Van Beethoven';
   header.appendChild(quoteP);
 
   const headerImg = document.createElement('img');
