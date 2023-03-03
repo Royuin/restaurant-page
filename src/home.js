@@ -54,3 +54,19 @@ you can be sure we put it all we got into each and every bowl of ramen you eat.`
     'While this restaurant may not actually exist, you can rest assured this website was made with a love of web development and good bowl of ramen.';
   content.appendChild(historyP);
 }
+
+export function createFooter() {
+  const footerTag = document.createElement('footer');
+  content.appendChild(footerTag);
+
+  const copyright = document.createTextNode('Copyright \xA9 ');
+  footerTag.appendChild(copyright);
+
+  const copyrightLink = document.createElement('a');
+  copyrightLink.href = 'https://github.com/Royuin';
+  copyrightLink.textContent = 'Royuin ';
+  footerTag.appendChild(copyrightLink);
+
+  const rightsReserved = document.createTextNode('2023 All Rights Reserved');
+  footerTag.appendChild(rightsReserved);
+}
