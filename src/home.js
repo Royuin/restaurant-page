@@ -44,4 +44,13 @@ you can be sure we put it all we got into each and every bowl of ramen you eat.`
   aboutP2.textContent =
     'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque quas autem sapiente ullam explicabo delectus totam culpa deserunt saepe laudantium facere eum quis, unde molestiae est magni at ut quo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dicta tenetur recusandae suscipit quibusdam provident dolorem officiis dolores? Similique quibusdam tenetur, minus sed dignissimos aliquid! Illum eaque quam veniam excepturi.';
   content.appendChild(aboutP2);
+
+  const historyH2 = document.createElement('h2');
+  historyH2.textContent = 'History of Roku Sunset';
+  content.appendChild(historyH2);
+
+  const historyP = document.createElement('p');
+  historyP.textContent =
+    'While this restaurant may not actually exist, you can rest assured this website was made with a love of web development and good bowl of ramen.';
+  content.appendChild(historyP);
 }
