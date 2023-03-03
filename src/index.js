@@ -1,3 +1,5 @@
-import { makeHeader } from './home';
+import { makeHeader, createHomeInfo, createFooter } from './home';
 
 makeHeader();
+createHomeInfo();
+createFooter();
