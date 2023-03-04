@@ -20,6 +20,9 @@ body {
   color: var(--off-white);
   line-height: 1.5;
   font-family: 'main font', sans-serif;
+  background-image: url(/src/imgs/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 nav {
@@ -32,6 +35,28 @@ nav {
   width: 100%;
 }
 
+.main-menu {
+  margin-top: 10rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5%;
+}
+
+.card {
+  background-color: rgba(5, 5, 5, 0.85);
+  color: var(--main-color);
+  font-size: 2vw;
+  width: 25vw;
+  height: 25vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 15px 0 15px;
+}
+
+.card > img {
+  height: 65%;
+}
 .quote {
   position: absolute;
   left: 30%;
