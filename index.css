@@ -96,3 +96,10 @@ p {
 a {
   color: var(--main-color);
 }
+
+footer {
+  background-color: var(--transparent-black);
+  margin-top: 15%;
+  width: 100%;
+  padding: 15px;
+}
