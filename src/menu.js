@@ -30,37 +30,49 @@ function makeMainMenu() {
   const tonkotsuRamen = document.createElement('div');
   tonkotsuRamen.classList = 'card';
   tonkotsuRamen.textContent = 'Tonkotsu Ramen';
-
+  const tonkotsuRamenImg = document.createElement('img');
+  tonkotsuRamenImg.src = '/src/imgs/tonkotsu-ramen.jpg';
+  tonkotsuRamen.appendChild(tonkotsuRamenImg);
   mainMenu.appendChild(tonkotsuRamen);
 
   const shoyuRamen = document.createElement('div');
   shoyuRamen.classList = 'card';
   shoyuRamen.textContent = 'Shoyu Ramen';
-
+  const shoyuRamenImg = document.createElement('img');
+  shoyuRamenImg.src = '/src/imgs/shoyu-ramen.jpg';
+  shoyuRamen.appendChild(shoyuRamenImg);
   mainMenu.appendChild(shoyuRamen);
 
   const misoRamen = document.createElement('div');
   misoRamen.classList = 'card';
   misoRamen.textContent = 'Miso Ramen';
-
+  const misoRamenImg = document.createElement('img');
+  misoRamenImg.src = '/src/imgs/miso-ramen.jpg';
+  misoRamen.appendChild(misoRamenImg);
   mainMenu.appendChild(misoRamen);
 
   const misoSoup = document.createElement('div');
   misoSoup.classList = 'card';
   misoSoup.textContent = 'Miso Soup';
-
+  const misoSoupImg = document.createElement('img');
+  misoSoupImg.src = '/src/imgs/miso-soup.jpg';
+  misoSoup.appendChild(misoSoupImg);
   mainMenu.appendChild(misoSoup);
 
   const udon = document.createElement('div');
   udon.classList = 'card';
   udon.textContent = 'Udon';
-
+  const udonImg = document.createElement('img');
+  udonImg.src = '/src/imgs/udon.jpg';
+  udon.appendChild(udonImg);
   mainMenu.appendChild(udon);
 
   const soba = document.createElement('div');
   soba.classList = 'card';
   soba.textContent = 'Soba';
-
+  const sobaImg = document.createElement('img');
+  sobaImg.src = '/src/imgs/soba-noodles.jpg';
+  soba.appendChild(sobaImg);
   mainMenu.appendChild(soba);
 }
 
