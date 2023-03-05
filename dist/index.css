@@ -21,9 +21,6 @@ body {
   color: var(--off-white);
   line-height: 1.5;
   font-family: 'main font', sans-serif;
-  background-image: url(/src/imgs/background.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 nav {
