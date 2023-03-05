@@ -2,6 +2,7 @@ const content = document.getElementById('content');
 
 function makeMenuHeader() {
   const nav = document.createElement('nav');
+  nav.classList = 'menu-nav';
   content.appendChild(nav);
 
   const h1 = document.createElement('h1');
@@ -63,7 +64,24 @@ function makeMainMenu() {
   mainMenu.appendChild(soba);
 }
 
+function makeFooter() {
+  const footerTag = document.createElement('footer');
+  content.appendChild(footerTag);
+
+  const copyright = document.createTextNode('Copyright \xA9 ');
+  footerTag.appendChild(copyright);
+
+  const copyrightLink = document.createElement('a');
+  copyrightLink.href = 'https://github.com/Royuin';
+  copyrightLink.textContent = 'Royuin ';
+  footerTag.appendChild(copyrightLink);
+
+  const rightsReserved = document.createTextNode('2023 All Rights Reserved');
+  footerTag.appendChild(rightsReserved);
+}
+
 export function makeMenuPage() {
   makeMenuHeader();
   makeMainMenu();
+  makeFooter();
 }
