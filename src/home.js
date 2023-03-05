@@ -1,6 +1,6 @@
 const content = document.getElementById('content');
 
-export function makeHeader() {
+function makeHeader() {
   const header = document.createElement('header');
   content.appendChild(header);
 
@@ -34,7 +34,7 @@ export function makeHeader() {
   header.appendChild(headerImg);
 }
 
-export function createHomeInfo() {
+function makeHomeInfo() {
   const aboutP1 = document.createElement('p');
   aboutP1.textContent = `Broth made from scratch with homemade noodles we serve the best ramen you haven't had yet. With only one location
 you can be sure we put it all we got into each and every bowl of ramen you eat.`;
@@ -55,7 +55,7 @@ you can be sure we put it all we got into each and every bowl of ramen you eat.`
   content.appendChild(historyP);
 }
 
-export function createFooter() {
+function makeFooter() {
   const footerTag = document.createElement('footer');
   content.appendChild(footerTag);
 
@@ -69,4 +69,10 @@ export function createFooter() {
 
   const rightsReserved = document.createTextNode('2023 All Rights Reserved');
   footerTag.appendChild(rightsReserved);
+}
+
+export function makeHomePage() {
+  makeHeader();
+  makeHomeInfo();
+  makeFooter();
 }
