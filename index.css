@@ -1,6 +1,7 @@
 :root {
   --off-white: #ccc;
   --main-color: #ff6b63;
+  --transparent-black: rgba(5, 5, 5, 0.75);
 }
 
 * {
@@ -29,7 +30,7 @@ nav {
   top: 0;
   position: absolute;
   font-size: 2em;
-  background-color: rgba(5, 5, 5, 0.75);
+  background-color: var(--transparent-black);
   padding: 10px 20px;
   color: var(--main-color);
   width: 100%;
@@ -37,7 +38,7 @@ nav {
 
 .menu-nav {
   font-size: 2em;
-  background-color: rgba(5, 5, 5, 0.75);
+  background-color: var(--transparent-black);
   padding: 10px 20px;
   color: var(--main-color);
   width: 100%;
@@ -51,7 +52,7 @@ nav {
 }
 
 .card {
-  background-color: rgba(5, 5, 5, 0.85);
+  background-color: var(--transparent-black);
   color: var(--main-color);
   font-size: 2vw;
   width: 25vw;
@@ -71,7 +72,7 @@ nav {
   right: 30%;
   top: 225px;
   font-size: 2em;
-  background-color: rgba(5, 5, 5, 0.75);
+  background-color: var(--transparent-black);
   padding: 10px 0 10px 0;
   color: var(--off-white);
   white-space: pre-line;
