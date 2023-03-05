@@ -62,3 +62,8 @@ function makeMainMenu() {
 
   mainMenu.appendChild(soba);
 }
+
+export function makeMenuPage() {
+  makeMenuHeader();
+  makeMainMenu();
+}
