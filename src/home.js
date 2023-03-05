@@ -31,6 +31,7 @@ function makeHeader() {
 
   const headerImg = document.createElement('img');
   headerImg.src = '/src/imgs/ramen-shop.jpg';
+  headerImg.classList = 'home-img';
   header.appendChild(headerImg);
 }
 
