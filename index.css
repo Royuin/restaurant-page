@@ -1,6 +1,7 @@
 :root {
   --off-white: #ccc;
   --main-color: #ff6b63;
+  --transparent-black: rgba(5, 5, 5, 0.75);
 }
 
 * {
@@ -26,19 +27,49 @@ nav {
   top: 0;
   position: absolute;
   font-size: 2em;
-  background-color: rgba(5, 5, 5, 0.75);
+  background-color: var(--transparent-black);
   padding: 10px 20px;
   color: var(--main-color);
   width: 100%;
 }
 
+.menu-nav {
+  font-size: 2em;
+  background-color: var(--transparent-black);
+  padding: 10px 20px;
+  color: var(--main-color);
+  width: 100%;
+}
+
+.main-menu {
+  margin-top: 10rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5%;
+}
+
+.card {
+  background-color: var(--transparent-black);
+  color: var(--main-color);
+  font-size: 2vw;
+  width: 25vw;
+  height: 25vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 15px 0 15px;
+}
+
+.card > img {
+  height: 65%;
+}
 .quote {
   position: absolute;
   left: 30%;
   right: 30%;
   top: 225px;
   font-size: 2em;
-  background-color: rgba(5, 5, 5, 0.75);
+  background-color: var(--transparent-black);
   padding: 10px 0 10px 0;
   color: var(--off-white);
   white-space: pre-line;
@@ -61,4 +92,11 @@ p {
 
 a {
   color: var(--main-color);
+}
+
+footer {
+  background-color: var(--transparent-black);
+  margin-top: 15%;
+  width: 100%;
+  padding: 15px;
 }
