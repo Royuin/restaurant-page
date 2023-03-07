@@ -1,6 +1,8 @@
-const content = document.getElementById('content');
-
 function makeHeader() {
+  const content = document.createElement('div');
+  content.setAttribute('id', 'content');
+  document.body.appendChild(content);
+
   const header = document.createElement('header');
   content.appendChild(header);
 

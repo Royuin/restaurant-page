@@ -1,6 +1,8 @@
-const content = document.getElementById('content');
-
 function makeMenuHeader() {
+  const content = document.createElement('div');
+  content.setAttribute('id', 'content');
+  document.body.appendChild(content);
+
   const nav = document.createElement('nav');
   nav.classList = 'menu-nav';
   content.appendChild(nav);
@@ -16,7 +18,7 @@ function makeMenuHeader() {
 
   const menuBtn = document.createElement('button');
   menuBtn.textContent = 'Menu';
-  homeBtn.classList = 'menu-button';
+  menuBtn.classList = 'menu-button';
   nav.appendChild(menuBtn);
 
   const contactBtn = document.createElement('button');
