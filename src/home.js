@@ -13,14 +13,17 @@ function makeHeader() {
 
   const homeBtn = document.createElement('button');
   homeBtn.textContent = 'Home';
+  homeBtn.classList = 'home-button';
   nav.appendChild(homeBtn);
 
   const menuBtn = document.createElement('button');
   menuBtn.textContent = 'Menu';
+  menuBtn.classList = 'menu-button';
   nav.appendChild(menuBtn);
 
   const contactBtn = document.createElement('button');
   contactBtn.textContent = 'Contact';
+  contactBtn.classList = 'contact-button';
   nav.appendChild(contactBtn);
 
   const quoteP = document.createElement('p');
