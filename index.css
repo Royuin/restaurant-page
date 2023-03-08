@@ -34,6 +34,7 @@ nav {
 }
 
 .menu-nav {
+  position: static;
   font-size: 2em;
   background-color: var(--transparent-black);
   padding: 10px 20px;
@@ -42,10 +43,11 @@ nav {
 }
 
 .main-menu {
-  margin-top: 10rem;
+  margin-top: 5%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 5%;
+  margin-bottom: 5%;
 }
 
 .card {
@@ -96,7 +98,7 @@ a {
 
 footer {
   background-color: var(--transparent-black);
-  margin-top: 15%;
+  margin-top: 5%;
   width: 100%;
   padding: 15px;
 }
