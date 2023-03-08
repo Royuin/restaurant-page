@@ -108,3 +108,9 @@ function makeFooter() {
   const rightsReserved = document.createTextNode('2023 All Rights Reserved');
   footerTag.appendChild(rightsReserved);
 }
+
+export function makeContactPage() {
+  makeContactHeader();
+  makeMainContent();
+  makeFooter();
+}
