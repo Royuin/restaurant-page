@@ -92,3 +92,19 @@ function makeMainContent() {
   submitBtn.textContent = 'Send Message';
   form.appendChild(submitBtn);
 }
+
+function makeFooter() {
+  const footerTag = document.createElement('footer');
+  content.appendChild(footerTag);
+
+  const copyright = document.createTextNode('Copyright \xA9 ');
+  footerTag.appendChild(copyright);
+
+  const copyrightLink = document.createElement('a');
+  copyrightLink.href = 'https://github.com/Royuin';
+  copyrightLink.textContent = 'Royuin ';
+  footerTag.appendChild(copyrightLink);
+
+  const rightsReserved = document.createTextNode('2023 All Rights Reserved');
+  footerTag.appendChild(rightsReserved);
+}
