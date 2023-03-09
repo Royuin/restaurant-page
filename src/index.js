@@ -1,14 +1,17 @@
 import { makeMenuPage } from './menu';
 import { makeHomePage } from './home';
+import { makeContactPage } from './contact';
 
 makeHomePage();
 
 let homeBtn = document.querySelector('.home-button');
 let menuBtn = document.querySelector('.menu-button');
+let contactBtn = document.querySelector('.contact-button');
 
 function addListener() {
   let homeBtn = document.querySelector('.home-button');
   let menuBtn = document.querySelector('.menu-button');
+  let contactBtn = document.querySelector('contact-button');
 
   homeBtn.addEventListener('click', () => {
     const content = document.getElementById('content');
@@ -25,6 +28,15 @@ function addListener() {
     document.body.removeChild(content);
 
     makeMenuPage();
+    addListener();
+  });
+
+  contactBtn.addEventListener('click', () => {
+    const content = document.getElementById('content');
+
+    document.body.removeChild(content);
+
+    makeContactPage();
     addListener();
   });
 }
@@ -44,5 +56,14 @@ menuBtn.addEventListener('click', () => {
   document.body.removeChild(content);
 
   makeMenuPage();
+  addListener();
+});
+
+contactBtn.addEventListener('click', () => {
+  const content = document.getElementById('content');
+
+  document.body.removeChild(content);
+
+  makeContactPage();
   addListener();
 });
