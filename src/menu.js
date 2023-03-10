@@ -36,7 +36,7 @@ function makeMainMenu() {
   tonkotsuRamen.classList = 'card';
   tonkotsuRamen.textContent = 'Tonkotsu Ramen';
   const tonkotsuRamenImg = document.createElement('img');
-  tonkotsuRamenImg.src = '/src/imgs/tonkotsu-ramen.jpg';
+  tonkotsuRamenImg.src = '/src/assets/imgs/tonkotsu-ramen.jpg';
   tonkotsuRamen.appendChild(tonkotsuRamenImg);
   mainMenu.appendChild(tonkotsuRamen);
 
@@ -44,7 +44,7 @@ function makeMainMenu() {
   shoyuRamen.classList = 'card';
   shoyuRamen.textContent = 'Shoyu Ramen';
   const shoyuRamenImg = document.createElement('img');
-  shoyuRamenImg.src = '/src/imgs/shoyu-ramen.jpg';
+  shoyuRamenImg.src = '/src/assets/imgs/shoyu-ramen.jpg';
   shoyuRamen.appendChild(shoyuRamenImg);
   mainMenu.appendChild(shoyuRamen);
 
@@ -52,7 +52,7 @@ function makeMainMenu() {
   misoRamen.classList = 'card';
   misoRamen.textContent = 'Miso Ramen';
   const misoRamenImg = document.createElement('img');
-  misoRamenImg.src = '/src/imgs/miso-ramen.jpg';
+  misoRamenImg.src = '/src/assets/imgs/miso-ramen.jpg';
   misoRamen.appendChild(misoRamenImg);
   mainMenu.appendChild(misoRamen);
 
@@ -60,7 +60,7 @@ function makeMainMenu() {
   misoSoup.classList = 'card';
   misoSoup.textContent = 'Miso Soup';
   const misoSoupImg = document.createElement('img');
-  misoSoupImg.src = '/src/imgs/miso-soup.jpg';
+  misoSoupImg.src = '/src/assets/imgs/miso-soup.jpg';
   misoSoup.appendChild(misoSoupImg);
   mainMenu.appendChild(misoSoup);
 
@@ -68,7 +68,7 @@ function makeMainMenu() {
   udon.classList = 'card';
   udon.textContent = 'Udon';
   const udonImg = document.createElement('img');
-  udonImg.src = '/src/imgs/udon.jpg';
+  udonImg.src = '/src/assets/imgs/udon.jpg';
   udon.appendChild(udonImg);
   mainMenu.appendChild(udon);
 
@@ -76,7 +76,7 @@ function makeMainMenu() {
   soba.classList = 'card';
   soba.textContent = 'Soba';
   const sobaImg = document.createElement('img');
-  sobaImg.src = '/src/imgs/soba-noodles.jpg';
+  sobaImg.src = '/src/assets/imgs/soba-noodles.jpg';
   soba.appendChild(sobaImg);
   mainMenu.appendChild(soba);
 }
