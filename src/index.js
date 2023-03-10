@@ -11,7 +11,7 @@ let contactBtn = document.querySelector('.contact-button');
 function addListener() {
   let homeBtn = document.querySelector('.home-button');
   let menuBtn = document.querySelector('.menu-button');
-  let contactBtn = document.querySelector('contact-button');
+  let contactBtn = document.querySelector('.contact-button');
 
   homeBtn.addEventListener('click', () => {
     const content = document.getElementById('content');

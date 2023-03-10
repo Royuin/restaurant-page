@@ -34,6 +34,7 @@ function makeMainContent() {
 
   const contactHeading = document.createElement('h2');
   contactHeading.textContent = 'Contact Us';
+  contactHeading.classList = 'contact-heading';
   contentMain.appendChild(contactHeading);
 
   const locationHeading = document.createElement('h3');
