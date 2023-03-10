@@ -21,9 +21,6 @@ module.exports = {
       {
         test: /\.(ttf)$/i,
         type: 'asset/resource',
-        use: {
-          loader: 'url-loader',
-        },
       },
     ],
   },
