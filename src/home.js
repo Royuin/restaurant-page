@@ -1,3 +1,5 @@
+import MainImg from './assets/imgs/ramen-shop.jpg';
+
 function makeHeader() {
   const content = document.createElement('div');
   content.setAttribute('id', 'content');
@@ -35,7 +37,7 @@ function makeHeader() {
   header.appendChild(quoteP);
 
   const headerImg = document.createElement('img');
-  headerImg.src = '/src/assets/imgs/ramen-shop.jpg';
+  headerImg.src = MainImg;
   headerImg.classList = 'home-img';
   header.appendChild(headerImg);
 }
