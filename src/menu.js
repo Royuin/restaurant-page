@@ -1,4 +1,9 @@
 import TonkotsuRamen from './assets/imgs/tonkotsu-ramen.jpg';
+import ShoyuRamen from './assets/imgs/shoyu-ramen.jpg';
+import MisoRamen from './assets/imgs/miso-ramen.jpg';
+import MisoSoup from './assets/imgs/miso-soup.jpg';
+import Udon from './assets/imgs/udon.jpg';
+import Soba from './assets/imgs/soba-noodles.jpg';
 
 function makeMenuHeader() {
   const content = document.createElement('div');
@@ -46,7 +51,7 @@ function makeMainMenu() {
   shoyuRamen.classList = 'card';
   shoyuRamen.textContent = 'Shoyu Ramen';
   const shoyuRamenImg = document.createElement('img');
-  shoyuRamenImg.src = '/src/assets/imgs/shoyu-ramen.jpg';
+  shoyuRamenImg.src = ShoyuRamen;
   shoyuRamen.appendChild(shoyuRamenImg);
   mainMenu.appendChild(shoyuRamen);
 
@@ -54,7 +59,7 @@ function makeMainMenu() {
   misoRamen.classList = 'card';
   misoRamen.textContent = 'Miso Ramen';
   const misoRamenImg = document.createElement('img');
-  misoRamenImg.src = '/src/assets/imgs/miso-ramen.jpg';
+  misoRamenImg.src = MisoRamen;
   misoRamen.appendChild(misoRamenImg);
   mainMenu.appendChild(misoRamen);
 
@@ -62,7 +67,7 @@ function makeMainMenu() {
   misoSoup.classList = 'card';
   misoSoup.textContent = 'Miso Soup';
   const misoSoupImg = document.createElement('img');
-  misoSoupImg.src = '/src/assets/imgs/miso-soup.jpg';
+  misoSoupImg.src = MisoSoup;
   misoSoup.appendChild(misoSoupImg);
   mainMenu.appendChild(misoSoup);
 
@@ -70,7 +75,7 @@ function makeMainMenu() {
   udon.classList = 'card';
   udon.textContent = 'Udon';
   const udonImg = document.createElement('img');
-  udonImg.src = '/src/assets/imgs/udon.jpg';
+  udonImg.src = Udon;
   udon.appendChild(udonImg);
   mainMenu.appendChild(udon);
 
@@ -78,7 +83,7 @@ function makeMainMenu() {
   soba.classList = 'card';
   soba.textContent = 'Soba';
   const sobaImg = document.createElement('img');
-  sobaImg.src = '/src/assets/imgs/soba-noodles.jpg';
+  sobaImg.src = Soba;
   soba.appendChild(sobaImg);
   mainMenu.appendChild(soba);
 }
