@@ -1,5 +1,5 @@
-import './assets/fonts/Labrada-VariableFont_wght.ttf';
-import './index.css';
+import '/src/assets/fonts/Labrada-VariableFont_wght.ttf';
+import '/src/index.css';
 import { makeMenuPage } from './menu';
 import { makeHomePage } from './home';
 import { makeContactPage } from './contact';
