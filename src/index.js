@@ -1,3 +1,4 @@
+import './assets/fonts/Labrada-VariableFont_wght.ttf';
 import './index.css';
 import { makeMenuPage } from './menu';
 import { makeHomePage } from './home';
