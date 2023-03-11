@@ -1,3 +1,5 @@
+import TonkotsuRamen from './assets/imgs/tonkotsu-ramen.jpg';
+
 function makeMenuHeader() {
   const content = document.createElement('div');
   content.setAttribute('id', 'content');
@@ -36,7 +38,7 @@ function makeMainMenu() {
   tonkotsuRamen.classList = 'card';
   tonkotsuRamen.textContent = 'Tonkotsu Ramen';
   const tonkotsuRamenImg = document.createElement('img');
-  tonkotsuRamenImg.src = '/src/assets/imgs/tonkotsu-ramen.jpg';
+  tonkotsuRamenImg.src = TonkotsuRamen;
   tonkotsuRamen.appendChild(tonkotsuRamenImg);
   mainMenu.appendChild(tonkotsuRamen);
 
