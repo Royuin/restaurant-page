@@ -13,3 +13,11 @@ Following The Odin Project curriculum at this point you were taught about ES6 mo
 While it wasn't the on of the main points of this section it was also great to really solidy npm and made it click, because of using it webpack it gave more practice.
 
 I also learned ES6 modules and how to seperate different javascript files and utlize them together utilizing imports and exports.
+
+## TO DO
+
+- Use SASS
+- Make responsive
+- Cohesive color scheme with more colors
+- Add background image for menu and contact pages
+- Add descriptions for menu items
