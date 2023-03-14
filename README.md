@@ -10,9 +10,9 @@ One of the main goals of this project was to learn what are and how to use ES6 m
 
 Following The Odin Project curriculum at this point you were taught about ES6 modules and webpack. It was a great project to understand how to set up a project in webpack and the advantages it has.
 
-While it wasn't the on of the main points of this section it was also great to really solidy npm and made it click, because of using it webpack it gave more practice.
+While it wasn't the on of the main points of this section it was also great to really solidify npm and made it click, because of using it webpack it gave more practice.
 
-I also learned ES6 modules and how to seperate different javascript files and utlize them together utilizing imports and exports.
+I also learned ES6 modules and how to seperate different javascript files and utlize them together utilizing imports and exports. While I did use branches in past projects this one was the first that I used pull requests on and helped solidify my knowledge of branches.
 
 ## TO DO
 
