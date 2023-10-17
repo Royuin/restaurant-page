@@ -8,6 +8,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     assetModuleFilename: '[name][ext]',
   },
+  mode: 'development',
   module: {
     rules: [
       {
