@@ -35,11 +35,6 @@ function makeHeader() {
   quoteP.textContent = '"Only the pure in heart can make a good soup." \n';
   quoteP.textContent += '-Ludwig Van Beethoven';
   header.appendChild(quoteP);
-
-  const headerImg = document.createElement('img');
-  headerImg.src = MainImg;
-  headerImg.classList = 'home-img';
-  header.appendChild(headerImg);
 }
 
 function makeHomeInfo() {
