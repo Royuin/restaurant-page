@@ -33,8 +33,6 @@ header {
 }
 
 nav {
-  top: 0;
-  position: absolute;
   font-size: 2em;
   background-color: var(--transparent-black);
   padding: 10px 20px;
@@ -44,7 +42,6 @@ nav {
 
 .menu-nav,
 .contact-nav {
-  position: static;
   font-size: 2em;
   background-color: var(--transparent-black);
   padding: 10px 20px;
@@ -75,21 +72,14 @@ nav {
 .card > img {
   height: 65%;
 }
+
 .quote {
-  position: absolute;
-  left: 30%;
-  right: 30%;
-  top: 225px;
+  margin-top: 5vw;
   font-size: 2em;
   background-color: var(--transparent-black);
   padding: 10px 0 10px 0;
   color: var(--off-white);
   white-space: pre-line;
-}
-
-.home-img {
-  width: 100vw;
-  height: 35em;
 }
 
 #content {
