@@ -15,19 +15,19 @@ function makeHeader() {
   h1.textContent = 'Roku Sunset';
   nav.appendChild(h1);
 
-  const homeBtn = document.createElement('button');
+  const homeBtn = document.createElement('a');
   homeBtn.textContent = 'Home';
-  homeBtn.classList = 'home-button';
+  homeBtn.classList = 'home-link';
   nav.appendChild(homeBtn);
 
-  const menuBtn = document.createElement('button');
+  const menuBtn = document.createElement('a');
   menuBtn.textContent = 'Menu';
-  menuBtn.classList = 'menu-button';
+  menuBtn.classList = 'menu-link';
   nav.appendChild(menuBtn);
 
-  const contactBtn = document.createElement('button');
+  const contactBtn = document.createElement('a');
   contactBtn.textContent = 'Contact';
-  contactBtn.classList = 'contact-button';
+  contactBtn.classList = 'contact-link';
   nav.appendChild(contactBtn);
 
   const quoteP = document.createElement('p');
