@@ -6,16 +6,16 @@ import { makeContactPage } from './contact';
 
 makeHomePage();
 
-let homeBtn = document.querySelector('.home-button');
-let menuBtn = document.querySelector('.menu-button');
-let contactBtn = document.querySelector('.contact-button');
+let homeLink = document.querySelector('.home-link');
+let menuLink = document.querySelector('.menu-link');
+let contactLink = document.querySelector('.contact-link');
 
 function addListener() {
-  let homeBtn = document.querySelector('.home-button');
-  let menuBtn = document.querySelector('.menu-button');
-  let contactBtn = document.querySelector('.contact-button');
+  let homeLink = document.querySelector('.home-link');
+  let menuLink = document.querySelector('.menu-link');
+  let contactLink = document.querySelector('.contact-link');
 
-  homeBtn.addEventListener('click', () => {
+  homeLink.addEventListener('click', () => {
     const content = document.getElementById('content');
 
     document.body.removeChild(content);
@@ -24,7 +24,7 @@ function addListener() {
     addListener();
   });
 
-  menuBtn.addEventListener('click', () => {
+  menuLink.addEventListener('click', () => {
     const content = document.getElementById('content');
 
     document.body.removeChild(content);
@@ -33,7 +33,7 @@ function addListener() {
     addListener();
   });
 
-  contactBtn.addEventListener('click', () => {
+  contactLink.addEventListener('click', () => {
     const content = document.getElementById('content');
 
     document.body.removeChild(content);
@@ -43,7 +43,7 @@ function addListener() {
   });
 }
 
-homeBtn.addEventListener('click', () => {
+homeLink.addEventListener('click', () => {
   const content = document.getElementById('content');
 
   document.body.removeChild(content);
@@ -52,7 +52,7 @@ homeBtn.addEventListener('click', () => {
   addListener();
 });
 
-menuBtn.addEventListener('click', () => {
+menuLink.addEventListener('click', () => {
   const content = document.getElementById('content');
 
   document.body.removeChild(content);
@@ -61,7 +61,7 @@ menuBtn.addEventListener('click', () => {
   addListener();
 });
 
-contactBtn.addEventListener('click', () => {
+contactLink.addEventListener('click', () => {
   const content = document.getElementById('content');
 
   document.body.removeChild(content);
