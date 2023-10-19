@@ -87,9 +87,9 @@ nav > a:hover {
 
 .quote {
   margin-top: 5vw;
-  font-size: clamp(18px, 2vw, 45px);
+  font-size: clamp(19px, 2vw, 45px);
   background-color: var(--transparent-black);
-  padding: 10px 0 10px 0;
+  padding: 10px 5% 10px 5%;
   color: var(--off-white);
   white-space: pre-line;
 }
@@ -102,6 +102,7 @@ nav > a:hover {
 
 p {
   padding: 1% 15% 3% 15%;
+  font-size: clamp(16px, 2vw, 20px);
 }
 
 a {
