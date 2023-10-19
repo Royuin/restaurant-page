@@ -11,20 +11,20 @@ function makeContactHeader() {
   h1.textContent = 'Roku Sunset';
   nav.appendChild(h1);
 
-  const homeBtn = document.createElement('button');
-  homeBtn.textContent = 'Home';
-  homeBtn.classList = 'home-button';
-  nav.appendChild(homeBtn);
+  const homeLink = document.createElement('a');
+  homeLink.textContent = 'Home';
+  homeLink.classList = 'home-link';
+  nav.appendChild(homeLink);
 
-  const menuBtn = document.createElement('button');
-  menuBtn.textContent = 'Menu';
-  menuBtn.classList = 'menu-button';
-  nav.appendChild(menuBtn);
+  const menuLink = document.createElement('a');
+  menuLink.textContent = 'Menu';
+  menuLink.classList = 'menu-link';
+  nav.appendChild(menuLink);
 
-  const contactBtn = document.createElement('button');
-  contactBtn.textContent = 'Contact';
-  contactBtn.classList = 'contact-button';
-  nav.appendChild(contactBtn);
+  const contactLink = document.createElement('a');
+  contactLink.textContent = 'Contact';
+  contactLink.classList = 'contact-link';
+  nav.appendChild(contactLink);
 }
 
 function makeMainContent() {
