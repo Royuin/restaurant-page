@@ -1,6 +1,7 @@
 :root {
   --off-white: #ccc;
   --main-color: #ff6b63;
+  --pale-main-color: #ff9691;
   --transparent-black: rgba(5, 5, 5, 0.75);
 }
 
@@ -38,6 +39,17 @@ nav {
   padding: 10px 20px;
   color: var(--main-color);
   width: 100%;
+}
+
+nav > a {
+  color: var(--pale-main-color);
+  margin: 0 10px;
+}
+
+nav > a:hover {
+  color: var(--main-color);
+  border-bottom: var(--main-color) solid 2px;
+  cursor: pointer;
 }
 
 .menu-nav,
