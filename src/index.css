@@ -54,7 +54,7 @@ nav > a:hover {
 
 .menu-nav,
 .contact-nav {
-  font-size: 2em;
+  font-size: clamp(18px, 2vw, 40px);
   background-color: var(--transparent-black);
   padding: 10px 20px;
   color: var(--main-color);
@@ -62,23 +62,26 @@ nav > a:hover {
 }
 
 .main-menu {
-  margin-top: 5%;
+  margin-top: 10%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 35vw 35vw;
+  grid-template-rows: 35vw;
   gap: 5%;
   margin-bottom: 5%;
+  place-content: center;
+  place-items: center;
 }
 
 .card {
   background-color: var(--transparent-black);
   color: var(--main-color);
   font-size: 2vw;
-  width: 25vw;
-  height: 25vw;
+  width: 35vw;
+  height: 35vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 15px 0 15px;
+  padding: 0 5%;
 }
 
 .card > img {
