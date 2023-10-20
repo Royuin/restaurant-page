@@ -1,9 +1,9 @@
 import TonkotsuRamen from './assets/imgs/tonkotsu-ramen.jpg';
 import ShoyuRamen from './assets/imgs/shoyu-ramen.jpg';
 import MisoRamen from './assets/imgs/miso-ramen.jpg';
-import MisoSoup from './assets/imgs/miso-soup.jpg';
 import Udon from './assets/imgs/udon.jpg';
 import Soba from './assets/imgs/soba-noodles.jpg';
+import MisoSoup from './assets/imgs/miso.jpg';
 
 function makeMenuHeader() {
   const content = document.createElement('div');
