@@ -41,7 +41,9 @@ function makeMainMenu() {
 
   const tonkotsuRamen = document.createElement('div');
   tonkotsuRamen.classList = 'card';
-  tonkotsuRamen.textContent = 'Tonkotsu Ramen';
+  const tonkotsuRamenText = document.createElement('p');
+  tonkotsuRamenText.textContent = 'Tonkotsu Ramen';
+  tonkotsuRamen.appendChild(tonkotsuRamenText);
   const tonkotsuRamenImg = document.createElement('img');
   tonkotsuRamenImg.src = TonkotsuRamen;
   tonkotsuRamen.appendChild(tonkotsuRamenImg);
@@ -49,7 +51,9 @@ function makeMainMenu() {
 
   const shoyuRamen = document.createElement('div');
   shoyuRamen.classList = 'card';
-  shoyuRamen.textContent = 'Shoyu Ramen';
+  const shoyuRamenText = document.createElement('p');
+  shoyuRamenText.textContent = 'Shoyu Ramen';
+  shoyuRamen.appendChild(shoyuRamenText);
   const shoyuRamenImg = document.createElement('img');
   shoyuRamenImg.src = ShoyuRamen;
   shoyuRamen.appendChild(shoyuRamenImg);
@@ -57,7 +61,9 @@ function makeMainMenu() {
 
   const misoRamen = document.createElement('div');
   misoRamen.classList = 'card';
-  misoRamen.textContent = 'Miso Ramen';
+  const misoRamenText = document.createElement('p');
+  misoRamenText.textContent = 'Miso Ramen';
+  misoRamen.appendChild(misoRamenText);
   const misoRamenImg = document.createElement('img');
   misoRamenImg.src = MisoRamen;
   misoRamen.appendChild(misoRamenImg);
@@ -65,7 +71,9 @@ function makeMainMenu() {
 
   const misoSoup = document.createElement('div');
   misoSoup.classList = 'card';
-  misoSoup.textContent = 'Miso Soup';
+  const misoSoupText = document.createElement('p');
+  misoSoupText.textContent = 'Miso Soup';
+  misoSoup.appendChild(misoSoupText);
   const misoSoupImg = document.createElement('img');
   misoSoupImg.src = MisoSoup;
   misoSoup.appendChild(misoSoupImg);
@@ -73,7 +81,9 @@ function makeMainMenu() {
 
   const udon = document.createElement('div');
   udon.classList = 'card';
-  udon.textContent = 'Udon';
+  const udonText = document.createElement('p');
+  udonText.textContent = 'Udon';
+  udon.appendChild(udonText);
   const udonImg = document.createElement('img');
   udonImg.src = Udon;
   udon.appendChild(udonImg);
@@ -81,7 +91,9 @@ function makeMainMenu() {
 
   const soba = document.createElement('div');
   soba.classList = 'card';
-  soba.textContent = 'Soba';
+  const sobaText = document.createElement('p');
+  sobaText.textContent = 'Soba';
+  soba.appendChild(sobaText);
   const sobaImg = document.createElement('img');
   sobaImg.src = Soba;
   soba.appendChild(sobaImg);
