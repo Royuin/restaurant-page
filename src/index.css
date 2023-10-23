@@ -87,6 +87,10 @@ nav > a:hover {
   min-height: 0;
 }
 
+.card > p {
+  font-size: clamp(17px, 3vw, 50px);
+}
+
 .card > img {
   height: 65%;
 }
@@ -156,7 +160,7 @@ h3 {
   }
 
   .card {
-    width: 50vw;
-    height: 50vw;
+    width: 65vw;
+    height: 65vw;
   }
 }
