@@ -66,7 +66,7 @@ nav > a:hover {
   display: grid;
   grid-template-columns: 35vw 35vw;
   grid-template-rows: 1fr;
-  gap: 5%;
+  gap: 3vw;
   margin-bottom: 5%;
   place-content: center;
   place-items: center;
