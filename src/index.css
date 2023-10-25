@@ -80,7 +80,7 @@ nav > a:hover {
   height: 35vw;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   padding: 0 5%;
   overflow: auto;
   min-width: 0;
@@ -88,7 +88,7 @@ nav > a:hover {
 }
 
 .card > p {
-  font-size: clamp(17px, 3vw, 50px);
+  font-size: clamp(17px, 3vw, 75px);
 }
 
 .card > img {
