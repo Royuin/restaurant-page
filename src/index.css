@@ -24,6 +24,13 @@ body {
   font-family: 'main font', sans-serif;
 }
 
+#content {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 header {
   background-image: url(./assets/imgs/ramen-shop.jpg);
   background-size: cover;
@@ -104,12 +111,6 @@ nav > a:hover {
   white-space: pre-line;
 }
 
-#content {
-  display: grid;
-  place-items: center;
-  text-align: center;
-}
-
 p {
   padding: 1% 15% 3% 15%;
   font-size: clamp(16px, 2vw, 20px);
@@ -121,7 +122,7 @@ a {
 
 footer {
   background-color: var(--transparent-black);
-  margin-top: 5%;
+  margin-top: auto;
   width: 100%;
   padding: 15px;
 }
